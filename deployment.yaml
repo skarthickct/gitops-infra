@@ -12,6 +12,8 @@ spec:
       labels:
         app: react-app
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret  # Specify the secret to pull images from GHCR
       containers:
         - name: react-app
           image: ghcr.io/skarthickct/gitops-01:66a435ec0d0ccced090567a7e8a9057842f02c68
