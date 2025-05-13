@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: ghcr.io/skarthickct/gitops-01:d83a2ed232e7ed80327c8733d8aff31788b274cd
+          image: ghcr.io/skarthickct/gitops-01:66a435ec0d0ccced090567a7e8a9057842f02c68
           imagePullPolicy: Always
           ports:
             - containerPort: 80
