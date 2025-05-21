@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret  # Specify the secret to pull images from GHCR
       containers:
         - name: react-app
-          image: ghcr.io/skarthickct/gitops-01:5b758f36981dc3c01796862a584da557ce0d7970
+          image: ghcr.io/skarthickct/gitops-01:650afbf1144a94518d81f5b386e2861c986e34fd
           imagePullPolicy: Always
           ports:
             - containerPort: 80
