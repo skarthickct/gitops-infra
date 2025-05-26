@@ -16,7 +16,7 @@ spec:
         - name: ghcr-secret  
       containers:
         - name: react-app
-          image: ghcr.io/skarthickct/gitops-01:406002d33ad444736a717644cd6cc97c8c667083
+          image: ghcr.io/skarthickct/gitops-01:e36e15e3e1d00273b1a7a715fd953836eab99753
           imagePullPolicy: Always
           ports:
             - containerPort: 80
